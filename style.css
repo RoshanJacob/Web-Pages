@@ -1,0 +1,25 @@
+#headerH1 {
+  border: solid;
+  border-width: 5px;
+  margin-top: 2px;
+}
+body:hover {
+  background-color: rgb(240, 117, 117);
+}
+body {
+  background-color: rgba(159, 238, 172, 0.8);
+  transition: 0.98s;
+}
+#clickable {
+  background-color: lightcyan;
+  border-width: 1px;
+  width: 110px;
+  border-radius: 10px;
+  transition: 0.2s;
+}
+
+#clickable:hover {
+  background-color: mediumslateblue;
+  color: mistyrose;
+  border: solid;
+}
