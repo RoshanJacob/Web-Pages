@@ -1,7 +1,14 @@
-function clicket() {
-  document.getElementById("clickable").addEventListener("click", () => {
-    alert(
-      "You have clicked a button! Couldn't resist? Well, this won't lead you to a virus, but be sure to think before clicking something on a webpage!"
-    );
+function showHidden() {
+  var card = document.getElementById("cardstock");
+
+  document.getElementById("preamble").style.visibility = "visible";
+
+  $(document).ready(function () {
+    var newHeight = 300;
+    $(".card").height(newHeight);
   });
 }
+
+// function hideHidden() {
+//   document.getElementById("preamble").style.visibility = "hidden";
+// }

@@ -1,0 +1,29 @@
+    <!-- <center> <u> <h1>Hello!</h1> </u> </center> 
+
+           <center> <h1 style = "margin-top:50px;"><pre>I am Roshan Jacob. </pre></h3> </center>
+                                                   <h3> <pre style = "text-align:center;">This website was created using HTML, Javascript, and CSS.</pre></h3>
+            <center><h4 onclick = "clicket()" id = "clickable">Do Not Click ME.</h2></center>
+
+                <i></i>
+            <div draggable = "true" style = "margin-left:100px;background-color:rgb(250, 194, 194); width:255px; border-radius:10px; border:solid; border-width:1px;">
+                <pre>The parts of the computer are  - 
+                        <ol>
+                            <li>Monitor (Screen)</li>                            
+
+                            <li>CPU (Central Processing Unit)</li>
+
+                            <li>Mouse</li>
+
+                            <li>Keyboard</li>
+
+                            <li>GPU</li>
+
+                            <li>And many more..!</li>
+                        </ol>
+                </pre>
+            </div> -->
+    <!-- <script>
+      function show() {
+        document.getElementById("preamble").style.visibility = "visible";
+      }
+    </script> -->

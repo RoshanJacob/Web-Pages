@@ -1,60 +1,131 @@
 <!DOCTYPE html>
-    <html>
-        <head style = "padding:0">
-            <meta charset = 'utf-8' />
-            <link rel = "stylesheet" type = "text/css" href = "style.css" />
-            
-                <title>My Website</title>
+<html>
+  <head style="padding: 0">
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <meta name="viewport" content="width = device-width, initial-scale = 1.0" />
 
-                <style>
-                    #headerH1{
-                        text-shadow: 0 1px 0 rgb(0, 0, 0), 0 2px 0 rgb(0, 0 ,0),
-                                     0 3px 0 rgb(0, 0, 0), 0 4px 0 rgb(0, 0, 0),
-                                     0 5px 0 rgb(241, 157, 47), 0 6px 0 rgb(241, 157, 47),
-                                     0 7px 0 rgb(241, 157, 47), 0 8px 0 rgb(241, 157, 47),
-                                     0 9px 0 rgb(241, 157, 47), 0 10px 0 rgb(241, 157, 47),
-                                     0 11px 0 rgb(241, 157, 47), 0 12px 0 rgb(241, 157, 47),
-                                     0 20px 30px rgba(0, 0, 0, 0.5);
-                    }
-                    #headerH1 {
-                        color: rgb(181, 250, 53);
-                        font-size: 4em;
-                        font-family: Arial, Helvetica, sans-serif;
-                    }
-                </style>
-             <div> 
-                <h1 style = "text-align:center; border:10px" id = "headerH1"> My Website </h1>
-              </div>
-            
-        </head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@539&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <title>My Website</title>
 
-        <body>
-            <script src = "sketch.js"></script>
+    <style>
+      #headerH1 {
+        text-shadow: 0 1px 0 rgb(0, 0, 0), 0 2px 0 rgb(0, 0, 0),
+          0 3px 0 rgb(0, 0, 0), 0 4px 0 rgb(0, 0, 0), 0 5px 0 rgb(241, 157, 47),
+          0 6px 0 rgb(241, 157, 47), 0 7px 0 rgb(241, 157, 47),
+          0 8px 0 rgb(241, 157, 47), 0 9px 0 rgb(241, 157, 47),
+          0 10px 0 rgb(241, 157, 47), 0 11px 0 rgb(241, 157, 47),
+          0 12px 0 rgb(241, 157, 47), 0 20px 30px rgba(0, 0, 0, 0.5);
+      }
+      #headerH1 {
+        color: rgb(181, 250, 53);
+        font-size: 4em;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+    </style>
+    <div>
+      <h1 style="text-align: center; border: 10px" id="headerH1">My Website</h1>
+    </div>
 
-            <center> <u> <h1>Hello!</h1> </u> </center> 
+    <style>
+      .sidebar{
+        float:right; position:fixed; z-index:1; overflow-x: hidden; top:0; right:0;
+        background-color: rgb(230, 82, 2);
+        width:200px;
+        margin-right:10px;
+        margin-top:10px;
+        border-radius:7px;
+      }
 
-           <center> <h1 style = "margin-top:50px;"><pre>I am Roshan Jacob. </pre></h3> </center>
-                                                   <h3> <pre style = "text-align:center;">This website was created using HTML, Javascript, and CSS.</pre></h3>
-            <center><h4 onclick = "clicket()" id = "clickable">Do Not Click ME.</h2></center>
+      .sidebar a{
+        display:block;
+        color:seashell;
+        text-decoration:none;
+        font-size:1.5em;
+        text-align:center;
+        margin-top:10px;
+        font-family:"Caveat", cursive;
+      }
 
-                <i></i>
-            <div draggable = "true" style = "margin-left:100px;background-color:rgb(250, 194, 194); width:255px; border-radius:10px; border:solid; border-width:1px;">
-                <pre>The parts of the computer are  - 
-                        <ol>
-                            <li>Monitor (Screen)</li>                            
+      a:active{
+        color:teal
+      }
+      .sidebar a:hover{
+        color:slateblue;
+      }
+    </style>
+  </head>
 
-                            <li>CPU (Central Processing Unit)</li>
+  <body>
+    <script src="sketch.js"></script>
+    <script>
+      // document.getElementById("cardstock").addEventListener('blur', function(){
+      //   this.focus();
+      // });
+    </script>
 
-                            <li>Mouse</li>
 
-                            <li>Keyboard</li>
+    <div class = "sidebar">
+      <a href = "#">About this</a>
+      <a href = "#">References</a>
 
-                            <li>GPU</li>
+    </div>
+    <div class="card" tabindex="0" id="cardstock" onclick = "showHidden()">
+      <h2 style="text-align: center; visibility: visible" id="Hello">
+        <strong>Hello!</strong>
+      </h2>
 
-                            <li>And many more..!</li>
-                        </ol>
-                </pre>
-            </div>
+      <p>
+      <pre
+        style="visibility: hidden; word-wrap: normal;
+        /* word-break: break-all; */
+        white-space: normal;
+        font-size:1.5em;
+        padding:20px;
+        display: block;
+        height: auto;
+        margin: 3px auto;
+        line-height: 1.4;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;"
+        id="preamble"
+      >
+        This website was made using HTML (HyperText Markup Language),
+        CSS (Cascading StyleSheets), and Javascript (No full form here).
+        It gives you information about different HTML elements and
+        properties.You can see this website's open source files at
+        https://github.com/RoshanJacob/Web-Pages/tree/master !
+   
+       
+      </pre>
+    </p>
+
+      <!-- <span>
         
-        </body>
-    </html>
+      </span> -->
+    </div>
+
+    <div class = "image">
+      
+    
+    </div>
+
+    <hr style = "width:450px; height:2px; background-color:#111; margin-top:20px" />
+    <!-- <div
+      class="button"
+      style="background-color: greenyellow; border-radius: 7px; width: 150px"
+    >
+      <h2 style="text-align: center">Click Me!</h2>
+    </div> -->
+   <div class = "imager" style = "align-items:center">
+   <div style = "background-color:white;" class = "cardbox">
+    <p> HTML (HyperText Markup Language) is mainly used to create websites. Any website on the web written in html 
+        will have a head and body tag. Along with html, css can be used to decorate and style webpages. The <span><code> &lt; style &gt; &lt; / style &gt; </code></span> tag 
+        can also be used in the head tag to style elements.</p>
+    </div>
+   </div>
+  </body>
+</html>

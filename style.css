@@ -23,3 +23,77 @@ body {
   color: mistyrose;
   border: solid;
 }
+.card {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+
+  /* min-height: 200px; */
+  height: 40px;
+  background-color: white;
+  width: 600px;
+  align-items: center;
+  margin: auto;
+  border-radius: 10px;
+  border-top: 5px solid;
+  transition: 0.5s;
+  /* height: 700px; */
+  border-image: linear-gradient(
+      to right,
+      rgb(68, 50, 50) 25%,
+      yellow 25%,
+      yellow 50%,
+      red 50%,
+      red 75%,
+      teal 75%
+    )
+    5;
+}
+.card:hover {
+  cursor: pointer;
+}
+.card:focus {
+  height: 300px;
+}
+#Hello {
+  margin-top: 5px;
+  font-family: "Roboto", sans-serif;
+}
+#preamble {
+  font-family: "Caveat", cursive;
+}
+/* body {
+  pointer-events: none;
+}
+.card {
+  pointer-events: auto;
+} */
+
+.image {
+  background-image: url("origamiJapaneseCranes.jpg");
+  min-height: 500px;
+  margin-top: 50px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.imager{
+    background-image:url("josh-appel-fO2aj57LNKY-unsplash.jpg");
+     min-height:1300px; 
+    width:100%;
+    background-repeat:no-repeat;
+    margin-top:50px;
+    align-items:center;
+    background-position:center;
+    background-attachment:fixed;
+    background-size:cover;
+ /*   image-resolution:4000dpi; */
+
+}
+.cardbox{
+    width:400px; padding:10px; box-shadow:10px 10px 0px rgba(0, 0, 0, 0.5); transform:scale(1.5);
+   text-align:center;
+   margin:0 auto;
+   border-radius:2px;
+} 
