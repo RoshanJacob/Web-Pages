@@ -78,22 +78,37 @@ body {
   border-radius: 10px;
 }
 
-.imager{
-    background-image:url("josh-appel-fO2aj57LNKY-unsplash.jpg");
-     min-height:1300px; 
-    width:100%;
-    background-repeat:no-repeat;
-    margin-top:50px;
-    align-items:center;
-    background-position:center;
-    background-attachment:fixed;
-    background-size:cover;
- /*   image-resolution:4000dpi; */
-
+.imager {
+  background-image: url("josh-appel-fO2aj57LNKY-unsplash.jpg");
+  min-height: 1300px;
+  width: 100%;
+  background-repeat: no-repeat;
+  margin-top: 50px;
+  align-items: center;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  /*   image-resolution:4000dpi; */
 }
-.cardbox{
-    width:400px; padding:10px; box-shadow:10px 10px 0px rgba(0, 0, 0, 0.5); transform:scale(1.5);
-   text-align:center;
-   margin:0 auto;
-   border-radius:2px;
-} 
+
+.content2 {
+  width: 50%;
+  padding: 10px;
+  box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.5);
+  transform: scale(1.5);
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 7px;
+  border-width: 3px;
+  margin-top: 300px;
+  height: 600px;
+}
+.cardbox {
+  width: 400px;
+  padding: 10px;
+  box-shadow: 10px 10px 0px rgba(0, 0, 0, 0.5);
+  transform: scale(1.5);
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 2px;
+}
