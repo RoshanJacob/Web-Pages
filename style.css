@@ -1,3 +1,8 @@
+@media screen and (max-width: 1000px) {
+  .sidebar {
+    display: none;
+  }
+}
 #headerH1 {
   border: solid;
   border-width: 5px;
@@ -29,7 +34,8 @@ body {
   /* min-height: 200px; */
   height: 40px;
   background-color: white;
-  width: 600px;
+  /* width: 600px; */
+  width: 65vw;
   align-items: center;
   margin: auto;
   border-radius: 10px;
