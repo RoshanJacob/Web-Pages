@@ -70,6 +70,8 @@ body {
 .image {
   background-image: url("origamiJapaneseCranes.jpg");
   min-height: 500px;
+  width: 100%;
+  max-width: 100%;
   margin-top: 50px;
   background-attachment: fixed;
   background-position: center;
@@ -82,6 +84,7 @@ body {
   background-image: url("josh-appel-fO2aj57LNKY-unsplash.jpg");
   min-height: 1300px;
   width: 100%;
+  max-width: 100%;
   background-repeat: no-repeat;
   margin-top: 50px;
   align-items: center;
