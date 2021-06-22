@@ -10,6 +10,7 @@ A unlinked sticky menu is present, which is still in development.
 
 If you have any suggestions / improvements, please create a new issue!
 
+(P.S - This is a website that is severely anti-mobile, so desktop viewing is recommended)
 
 # Steps to download and see the output ⇄
 
