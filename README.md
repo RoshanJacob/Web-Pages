@@ -14,6 +14,7 @@ A unlinked sticky menu is present, which is still in development.
 <pre>
 <ul>
 <li>Download the zip file by clicking on code, and then download zip.</li>
+<li><img src = "https://user-images.githubusercontent.com/63859798/122867883-d97e3d80-d347-11eb-8410-169def9a542a.png" /></li>
 <li>Unzip the package into a folder and click on the index.html file. </li>
 <li>Enjoy and learn!</li>
 </ul>
