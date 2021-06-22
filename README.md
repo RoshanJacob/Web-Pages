@@ -8,6 +8,8 @@ There are different fonts ( Google fonts ), images (Unsplash and other sources),
 
 A unlinked sticky menu is present, which is still in development.
 
+If you have any suggestions / improvements, please create a new issue!
+
 
 # Steps to download and see the output ⇄
 
