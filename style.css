@@ -2,6 +2,14 @@
   .sidebar {
     display: none;
   }
+  .image{
+    background-attachment: scroll;
+ 
+  }
+  .imager{
+    background-attachment: scroll;
+
+  }
 }
 #headerH1 {
   border: solid;
