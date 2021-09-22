@@ -2,13 +2,36 @@
   .sidebar {
     display: none;
   }
-  .image{
+  .image {
     background-attachment: scroll;
- 
   }
-  .imager{
+  .imager {
     background-attachment: scroll;
+  }
+}
+@keyframes width-height-outw {
+  0% {
+    transform: scale(0, 0.025);
+  }
+  60% {
+    transform: scale(1, 0.025);
+  }
+}
 
+@keyframes sidetrack {
+  60% {
+    transform: scale(1, 0.025);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .sidebar {
+    animation-name: width-height-outw;
+    animation-duration: 0.5s;
+    animation-iteration-count: initial;
   }
 }
 #headerH1 {
